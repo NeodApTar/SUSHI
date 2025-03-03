@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans&family=Pacifico&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+  background: url(./assets/fons3.png) center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
